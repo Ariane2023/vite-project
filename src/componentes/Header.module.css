@@ -1,0 +1,23 @@
+/* src/styles/Header.css */
+.top-box {
+  background-color: #0d1117;
+  border-radius: 12px;
+  color: white;
+  
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.68rem;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  line-height: 100%;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+}
+
+.logo {
+  width: 3.6rem;
+  height: auto;
+}

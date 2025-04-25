@@ -1,0 +1,46 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: #f7f8f8;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: #000000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 50.25rem;
+  height: 16.06rem;
+}
+
+h2 {
+  color: #005CFF;
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  margin-top: 4.25rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+}
+
+.avatar {
+  width: 13.75rem;
+  height: 13.75rem;
+  border: 2px solid #005CFF;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.info {
+  flex: 1;
+  color: #000000;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.93rem;
+}
+
+.bio {
+  margin-bottom: 16px;
+  color: #000000;
+  font-size: 0.93rem;
+  font-weight: 300;
+}

@@ -1,0 +1,62 @@
+/* src/componentes/SearchBar.module.css */
+.searchBar {
+  gap: 8px;
+  margin-bottom: 16px;
+  width: 31.4375rem;
+  height: 3.875rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+
+.searchBar input {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  color: #000000;
+  font-size: 1rem;
+}
+
+.searchBar button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-image: url(../assets/Lupa.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 3.8rem;
+  height: 3.7rem;
+  margin-right: 0.05rem;
+  margin-top: 0.05rem;
+ 
+}
+
+.searchBar button:hover {
+  background-color: #0056b3;
+}
+/* Em SearchBar.module.css ou App.css */
+.erroMensagem {
+  background-color: #f0f0f0; /* Cor de fundo desejada */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+  color: #FF0000; /* Cor do texto de erro */
+  text-align: center;
+  margin-top: 3.125rem;
+  min-width: 44.375rem;
+  box-sizing: border-box;
+  min-height: 5.5rem;
+  
+}

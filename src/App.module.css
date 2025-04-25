@@ -1,0 +1,28 @@
+.appContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #313131 ;
+  margin: 0;
+  height: 100vh;
+  min-width: 100%;
+  overflow-y: hidden;
+}
+
+.box {
+  max-width: 72.25rem;
+  height: 33.5rem;
+  background-color: #000000;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  gap: 1rem;
+}
+body {
+  background-color: #313131;
+
+}
